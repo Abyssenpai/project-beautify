@@ -15,7 +15,7 @@ html, body {
 
 /* padded section */
 .pad-section {
-  padding: 50px 0;
+  padding: 50px;
 }
 
 .pad-section img {
@@ -50,7 +50,27 @@ html, body {
 }
 
 .pad {
-    padding: 5%;
+    padding: 0 0 5% 0;
+}
+
+.parallax {
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax .panel {
+	opacity: 0.85;
+}
+
+.parallax h1 {
+    color: #FFF;
+    text-shadow: 0 0 10px #000;
 }
 
 /* additional sections */
@@ -64,10 +84,6 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#about {
-    
 }
 
 #beautify-button{
@@ -92,6 +108,11 @@ html, body {
   color: #ffffff;
 }
 
+#services img{
+	max-height: 75%;
+	max-width: 75%;
+}
+
 #services .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
@@ -102,82 +123,6 @@ html, body {
   text-align: center;
   vertical-align: middle;
   width: 140px;
-}
-
-#information {
-  background: url(http://www.columbia.edu/~rna2113/img/Chemistry-1920x960.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 800px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#contact {
-  background: url(../images/facebook.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 800px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#company {
-  background: url(../images/adobe.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 500px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#degree {
-  background: url(../images/stanford.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 500px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-#company .panel {
-  opacity: 0.85;
-}
-
-#company h1 {
-    color: #FFF;
-    text-shadow: 0 0 10px #000;
-}
-
-#contact .panel {
-  opacity: 0.85;
-}
-
-#contact h1 {
-    color: #FFF;
-    text-shadow: 0 0 10px #000;
-}
-
-#information .panel {
-  opacity: 0.85;
-}
-
-#information h1 {
-    color: #FFF;
-    text-shadow: 0 0 10px #000;
 }
 
 footer {
