@@ -1,0 +1,148 @@
+﻿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 10px #000;
+  color: #FFF;
+  font-style: bold;
+}
+
+.text-vcenter h3 {
+  padding: 5%;
+  text-shadow: 0 0 5px #000;
+  color: #FFF;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pad {
+    padding: 0 0 5% 0;
+}
+
+.parallax {
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax .panel {
+	opacity: 0.85;
+}
+
+.parallax h1 {
+    color: #FFF;
+    text-shadow: 0 0 10px #000;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/beautifybanner.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#beautify-button{
+    border: 1px solid #FFF;
+}
+
+#title{
+    padding: 0;
+    width: 100vw;
+    margin: 0;
+    background-color: #306d9f;
+    color: white;
+}
+
+#title h1{
+    padding: 5vh 5vw 2vh;
+    font-weight: bold;
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+#services img{
+	max-height: 75%;
+	max-width: 75%;
+}
+
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+#navbar{
+ background-color: #4DAFFF;
+ border: none;
+}
+
+#navbar a{
+ color: #FFF;
+}
